@@ -1,8 +1,13 @@
 /* Barra de navegacion */
 
+body{
+  background-color: #283041;
+}
+
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-color: #141824;
+  box-shadow: 3px 5px 15px rgba(0,0,0,0.71);
 }
 
 .navbar-collapse {
@@ -10,6 +15,14 @@
   justify-content: space-between;  
 }
 
+.navbar-nav .nav-link.active{
+  color: white;
+}
+
+.nav-link:hover{
+  text-decoration: underline;
+  color: transparent;
+}
 /* Estilos generales */
 
 section {
@@ -21,28 +34,31 @@ section {
 
 h1 {
   font-size: 2.5rem;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
 }
 
 .seccion-oscura {
+  margin-top: 70px;
   color: white;
-  background-color: #1b1b32;
+  background-color: #141824;
 }
 
 .seccion-clara {
   color: black;
-  background-color: white;
+  background-color: #283041;
 }
 
 .seccion-titulo {
   font-size: 2rem;
   padding: 15px 0;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
 }
 
 .seccion-descripcion {
   font-size: 1.2rem;
-  color: #584e4e;
+  color: white;
 }
 
 .seccion-texto {
@@ -54,10 +70,6 @@ h1 {
   margin: 20px;
 }
 
-.texto-negro {
-  color: black;
-}
-
 .texto-blanco {
   color: white;
 }
@@ -65,19 +77,26 @@ h1 {
 /* Seccion Hero */
 
 .hero {
-  background-color: #f5f6f7;
+  background-color: #283041;
   min-height: 450px;
   text-align: center;
 }
 
 .hero-principal {
   padding: 3rem;
+  padding-bottom: 0; 
 }
 
 .hero-imagen-desarrollador {
   width: 200px;
   height: 200px;
   margin: 20px;
+}
+
+.hero-inferior-imagen
+{
+  width: 500px;
+  height: 500px;
 }
 
 .hero-principal h2 {
@@ -90,6 +109,7 @@ h1 {
 .sobre-mi {
   height: 500px;
   padding: 10px;
+  box-shadow: -1px 5px 44px -11px rgba(0,0,0,0.71);
 }
 
 .sobre-mi .contenedor {
@@ -100,17 +120,21 @@ h1 {
 /* Experiencia */
 
 .experiencia {
-  padding: 40px 40px 60px 40px;
+  padding: 40px 40px 60px 0px;
+  margin-top:   100px;
 }
 
 .experiencia .columna {
+  background-color: #141824;
+  border-radius: 10px;
+  color: white;
   padding: 20px;
-  border: 2px solid #8080804d;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   transition: all 0.2s ease-in;
+  margin-left: 30px;
 }
 
 .experiencia .columna:hover {
@@ -311,6 +335,7 @@ h1 {
 
 footer {
   min-height: 500px;
+  box-shadow: -3px -5px 15px rgba(0,0,0,0.71);
 }
 
 .footer-logo {
