@@ -8,6 +8,7 @@ body{
   padding: 2rem;
   background-color: #141824;
   box-shadow: 3px 5px 15px rgba(0,0,0,0.71);
+  margin-bottom: 55px;
 }
 
 .navbar-collapse {
@@ -54,6 +55,7 @@ h1 {
   padding: 15px 0;
   font-family: 'Space Grotesk', sans-serif;
   color: white;
+  border-bottom: 3px solid white;
 }
 
 .seccion-descripcion {
@@ -63,6 +65,7 @@ h1 {
 
 .seccion-texto {
   font-size: 1.2rem;
+  text-align: justify;
 }
 
 .btn-info {
@@ -113,7 +116,7 @@ h1 {
 }
 
 .sobre-mi .contenedor {
-  max-width: 600px;
+  max-width: 750px;
   text-align: center;
 }
 
