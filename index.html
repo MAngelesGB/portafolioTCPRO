@@ -44,6 +44,9 @@
               <a class="nav-link active" href="#proyectos">Proyectos</a>
             </li>
             <li class="nav-item ancla">
+              <a class="nav-link active" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item ancla">
               <a class="nav-link active" href="#contacto">Contacto</a>
             </li>
           </ul>
@@ -172,8 +175,87 @@
       </div>
     </section>
 
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de las personas que han trabajado conmigo...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/erik.jpg" alt="Foto de Gino">
+              <p class="testimonio-texto">
+                Ángeles es una programadora muy inteligente y atenta. Siempre hace todo lo que se le pide e incluso más usando su lógica de desarrolladora. 
+                Siempre tratando de hacer las cosas lo mejor que puede e incluso más cada vez.
+                También no le tiene miedo a pedir ayuda cuando sabe que la ocupa, lo cual muchos programadores no hacen y llegan a quedarse trabados.
+                En general es una muy buena desarrolladora con mucha capacidad y potencial para muchas áreas de programación.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Erik</p>
+                <p class="cargo">Programador</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.svg" alt="Foto de Nora">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Nora</p>
+                <p class="cargo">Gerente de DiseñaMiPáginaWeb</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.svg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Leonardo</p>
+                <p class="cargo">Director de AprendeAProgramar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="https://www.linkedin.com/in/mangelesgb/">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-linkedin"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Pie de pagina (footer) -->
-    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center" id="contacto"> 
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
       <img class="footer-logo" src="imagenes/calavera-y-huesos.png" alt="Logo del portafolio">
       <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
       <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">

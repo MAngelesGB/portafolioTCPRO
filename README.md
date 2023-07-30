@@ -6,6 +6,10 @@ El propósito de esta página web es mostrar el portafolio de proyectos de un(a)
 
 También incluye imágenes alternativas en la carpeta `imagenes` en caso de que se desee personalizar la imagen principal del desarrollador, además de animación a la escritura de la página web con JavaScript.
 
+En este caso se agregaron imagenes propias, además de realizar cambios en el contenido como colores, incluyendo algunos aditamentos a algunos componentes. 
+
+La pagina modificada se presentará en las siguientes capturas de pantala
+
 ### Capturas de pantalla:
 
 Primera parte de la página web:
