@@ -8,7 +8,7 @@ También incluye imágenes alternativas en la carpeta `imagenes` en caso de que 
 
 En este caso se agregaron imagenes propias, además de realizar cambios en el contenido como colores, incluyendo algunos aditamentos a algunos componentes. 
 
-La pagina modificada se presentará en las siguientes capturas de pantala
+La página modificada se presentará en las siguientes capturas de pantalla
 
 ### Capturas de pantalla:
 
