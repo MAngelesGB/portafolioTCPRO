@@ -230,6 +230,8 @@ h1 {
 
 .overlay .iconos-contenedor {
   display: flex;
+  justify-content: center;
+  align-items:center; 
 }
 
 .overlay i {
@@ -248,6 +250,7 @@ h1 {
   font-size: 18px;
   box-shadow: -1px 5px 44px -11px rgba(0,0,0,0.71);
 }
+
 
 
 /* Testimonios */
